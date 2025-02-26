@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  background-color: #FDFDFD;
+}
+
+.text-cont{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-cont h2{
+  font-size: 27px;
+  color: white;
+}
+
+.text-cont h1{
+  font-size: 35px;
+  color: white;
+}
+
+/* Container Style */
+.detail-cont{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgb(0,119,182);
+background: linear-gradient(180deg, rgba(0,119,182,1) 0%, rgba(0,169,225,1) 41%, rgba(0,209,255,1) 100%);
+
+}
+
+.login-cont{
+  width: 50%;
+}
+
+.logo-cont{
+  width: 100%;
+  text-align: center;
+}
+
+.logo-cont img{
+  width: 250px;
+}
+
+
+.image-cont img{
+  width: 900px;
+  height: auto;
+}
+
+/* Form Style */
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  min-height: 100vh;
+  background-color: #fcfcfc;
+  padding: 4%;
+}
+.form-cont{
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.4rem;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+
+/* Inputs Style */
+.input-cont {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+
+}
+.form-tb-text, .form-tb-password {
+  flex: 1 1 calc(20% - 10px);
+  margin: 0 5px 0 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #AFAFAF;
+  border-radius: 14px;
+  box-sizing: border-box;
+  outline-color: #66a3c9;
+  background-color: white;
+  align-content: center;
+  min-height: 50px;
+}
+
+.form-tb-text:hover, .form-tb-password:hover{
+  box-shadow: 0px 0px 5px 0px rgb(226, 225, 225);
+  border: solid 1px #66a3c9;
+}
+
+
+/* Style for Button */
+.form-btn-submit{
+  width: 100%;
+  height: 45px;
+  background-color: #1b313e;
+  color: white;
+  border-radius: 14px;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-btn-submit:hover {
+  background-color: #66a3c9;
+}
+
